@@ -2,10 +2,9 @@
 
 namespace Spinen\QuickBooks;
 
-use App\User;
 use Carbon\Carbon;
 use Exception;
-use Illuminate\Database\Eloquent\Model;
+use Jenssegers\Mongodb\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use QuickBooksOnline\API\Core\OAuth\OAuth2\OAuth2AccessToken;
 use QuickBooksOnline\API\Exception\SdkException;
