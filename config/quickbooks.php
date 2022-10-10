@@ -1,6 +1,6 @@
 <?php
 
-use App\User;
+use App\Models\User;
 
 return [
 
@@ -88,7 +88,7 @@ return [
     'user' => [
         'keys'  => [
             'foreign' => 'user_id',
-            'owner'   => 'id',
+            'owner'   => '_id',
         ],
         'model' => User::class,
     ],
